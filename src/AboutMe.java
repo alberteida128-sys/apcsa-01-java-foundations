@@ -13,10 +13,21 @@
  */
 public class AboutMe {
     public static void main(String[] args) {
-
-        // Declare your variables here
-
-        // Print them with labels here
+        final int BIRTH_YEAR = 2010;
+        String birthMonth = "july" ;
+        char grode = 'A'; 
+        int favoriteNumber = 7; 
+        double favoriteDecimal = 3.14; 
+        boolean likesJava = true; 
+        char favoriteInitial = 'A'; 
+        String name = "YOUR_NAME"; 
+        
+        System.out.println("Name: " + name);
+        System.out.println("Birth year: " + BIRTH_YEAR);
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Favorite decimal: " + favoriteDecimal);
+        System.out.println("Likes Java: " + likesJava);
+        System.out.println("Favorite initial: " + favoriteInitial);
 
     }
 }
