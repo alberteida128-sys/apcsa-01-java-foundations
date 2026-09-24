@@ -18,7 +18,7 @@
 public class BusinessCard {
     public static void main(String[] args) {
 
-        
+    System.out.println("+--------------------------------+\n|   Albert Eida\t\t\t |\n|   Student Developer\t\t |\n|                                | \t\n|   github.com/Albert-Eida       |\n+--------------------------------+");   
 
     }
 }
