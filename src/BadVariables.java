@@ -9,19 +9,20 @@
 public class BadVariables {
     public static void main(String[] args) {
 
-        int 2ndPlace = 5;
+        int secondPlace = 5;    // Identifiers cannot begin with number
 
-        double price = "9.99";
+        double price = 9.99;    // the number cannot be in quotes or it will become string
 
-        boolean isReady = "true";
+        boolean isReady = true; // the number cannot be in quotes or it will become string
 
-        char grade = "A";
 
-        int class = 11;
+        char grade = 'A';     // char must have single quotation
 
-        String Name = "Sarah";
+        int gradeLevel = 11;
 
-        int student score = 95;
+        String name = "Sarah";   // The N in string name should not be cap because vairiables start lowercase
+
+        int  studentScore = 95;    // all vairiables have to be a single word
 
         System.out.println("If this runs, you fixed them all.");
     }

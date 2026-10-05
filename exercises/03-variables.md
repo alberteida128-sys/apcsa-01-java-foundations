@@ -6,30 +6,30 @@ For each value, pick the best Java type and justify it in **one sentence.** The 
 
 | # | Value to store | Type | Why |
 |---|---|---|---|
-| 1 | A student's age | | |
-| 2 | The price of a coffee | | |
-| 3 | Whether a student is enrolled | | |
-| 4 | A student's middle initial | | |
-| 5 | A phone number | | |
-| 6 | The population of New York City | | |
-| 7 | A test score out of 100 | | |
-| 8 | A GPA | | |
-| 9 | Whether it is currently raining | | |
-| 10 | A student ID like `0074512` | | |
+| 1 | A student's age | int | because its a whole number |
+| 2 | The price of a coffee | double | price could include decimals to the nearest hundredths |
+| 3 | Whether a student is enrolled | boolean | because its true or false |
+| 4 | A student's middle initial | char | because its a single charachter |
+| 5 | A phone number | String | there are charachters besides numbers |
+| 6 | The population of New York City | int | because its a whole number |
+| 7 | A test score out of 100 | double | because there are decimals |
+| 8 | A GPA | double | there are decimals |
+| 9 | Whether it is currently raining | boolean | true or flase |
+| 10 | A student ID like `0074512` | String | there are things other than numbers |
 
 ### Traps to think carefully about
 
 **#5 — Phone number.** It's made of digits, so `int` feels right. Why is it wrong?
 
-[your answer]
+there are other charachters that are not numbers
 
 **#10 — Student ID.** Same question, plus one more problem `int` would cause.
 
-[your answer]
+Because its a randomly genreated number no mathematical
 
 **#6 — Population of NYC.** About 8.3 million. Does that fit in an `int`? What about the population of Earth?
 
-[your answer]
+it does because its a whole number there cant be half people
 
 ---
 
