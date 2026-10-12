@@ -42,8 +42,8 @@ A movie and show app where you document the things youve seen, ratings and revei
 | 1 | Movie name|String | "prisoners"| because its only words |
 | 2 |Movie summary | string  | "Prisoners is a 2013 dark crime thriller directed by Denis Villeneuve" | because its only words |
 | 3 | average rating | double | 9.25 | because there are decmials|
-| 4 | fan reveiw | string|I really loved this movie |because there are no words |
-| 5 | movie lists| string|1. Prisoners 2. The Dark Night | because it includes more than numbers|
+| 4 | fan reveiw | string|I really loved this movie |because there are no numbers |
+| 5 | movie lists| string|1. Prisoners 2. The Dark Night | because it includes charachters and numbers|
 
 **Is there anything your project needs to store that doesn't fit any of these types?**
 no
