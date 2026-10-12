@@ -36,15 +36,15 @@ it does because its a whole number there cant be half people
 ## Exercise 10 — Your Project's Data (Homework)
 
 Think about your project idea. What are the five most important pieces of information it needs to store?
-
+A movie and show app where you document the things youve seen, ratings and reveiws
 | # | What it stores | Type | Example value | Why this type |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 1 | Movie name|String | "prisoners"| because its only words |
+| 2 |Movie summary | string  | "Prisoners is a 2013 dark crime thriller directed by Denis Villeneuve" | because its only words |
+| 3 | average rating | double | 9.25 | because there are decmials|
+| 4 | fan reveiw | string|I really loved this movie |because there are no words |
+| 5 | movie lists| string|1. Prisoners 2. The Dark Night | because it includes more than numbers|
 
 **Is there anything your project needs to store that doesn't fit any of these types?**
-
+no
 [your answer — this is a good question to be stuck on. It's usually a sign you need a *list* of something, or your own class. Both are coming.]
